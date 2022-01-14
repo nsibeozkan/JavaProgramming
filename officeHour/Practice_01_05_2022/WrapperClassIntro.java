@@ -1,6 +1,7 @@
 package Practice_01_05_2022;
 
 public class WrapperClassIntro {
+     String str="anything";
 
     public static void main(String args[]) {
 

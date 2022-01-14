@@ -16,7 +16,14 @@ public class HidePassword {
         System.out.println(hiddenPassword);
     }
 
+    public static String convertToStar(String str){
+        String star = "";
 
+        for(int i=0;i<str.length();i++){
+            star += "*";
+        }
+        return star;
+    }
 
 
 }
