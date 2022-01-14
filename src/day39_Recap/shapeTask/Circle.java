@@ -11,7 +11,7 @@ public class Circle extends Shape {//onemli extends yapmadan once instancelari y
 
     public void setRadius(double radius) {
         if(radius<=0){
-            System.out.println("Invalid radius");
+            System.out.println("Invalid radius "+radius);
             System.exit(1);
         }
         this.radius = radius;
@@ -38,6 +38,7 @@ public class Circle extends Shape {//onemli extends yapmadan once instancelari y
     public String toString() {
         return "Circle{" +
                 "radius=" + radius +
+                ", pi=" + pi +'\'' +
                 ", area='" + area() + '\'' +
                 ", perimeter='" + perimeter()+ '\'' +
                 '}';
