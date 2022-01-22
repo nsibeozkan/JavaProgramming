@@ -1,6 +1,6 @@
 package day27_WrapperClasses;
 
-import utilities.ArraysUtility;
+import day36_Inheritance.utilities.ArraysUtility;
 
 import java.util.Arrays;
 

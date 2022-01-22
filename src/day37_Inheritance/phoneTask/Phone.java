@@ -1,6 +1,6 @@
 package day37_Inheritance.phoneTask;
 
-public class Phone {//parent class:only contains the common features of all the  subclass
+public  class Phone {//parent class:only contains the common features of all the  subclass
 
 
     public String brand, model;

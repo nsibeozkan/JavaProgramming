@@ -1,4 +1,4 @@
-package utilities;
+package day36_Inheritance.utilities;
 
 import java.util.Arrays;
 
