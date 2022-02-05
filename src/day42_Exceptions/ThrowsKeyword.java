@@ -1,8 +1,10 @@
 package day42_Exceptions;
 
+import java.util.concurrent.ExecutionException;
+
 public class ThrowsKeyword {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws Exception {
 
         System.out.println("----------Test 1--------------");
 
@@ -13,8 +15,6 @@ public class ThrowsKeyword {
 
 
         System.out.println("--------Test 1 Completed--------------");
-
-
 
 
         System.out.println("----------Test 2--------------");
@@ -28,12 +28,7 @@ public class ThrowsKeyword {
         System.out.println("--------Test 2 Completed--------------");
 
 
-
-
-
     }
-
-
 
 
 
